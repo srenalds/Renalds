@@ -1,0 +1,25 @@
+#topPagecontent {
+    background: #F1F1D4;
+    min-height: 90px;
+    padding: 5px;
+    overflow: auto;
+    font-size: 18px;
+}
+#topPageContent img {
+    max-width: 98%;
+    max-height: 80px;
+    min-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+#rightTop {
+  text-align: right;
+}
+#leftTop b {
+  font-size: 24px;
+}
+#rightTop b {
+  font-size: 24px;
+}

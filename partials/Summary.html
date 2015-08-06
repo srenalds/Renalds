@@ -1,0 +1,17 @@
+<body ng-app="Renalds">
+<div ng-controller="RenaldsController" layout="column">
+  <section layout="row" flex>
+    <md-button ng-click="toggleLeft()" hide-gt-md>
+      <md-icon md-svg-icon="img/icons/ic_menu_black_24px.svg"></md-icon>
+    </md-button>
+    <md-sidenav class="md-sidenav-left md-whiteframe-z5" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+      <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Sidenav Left</h1>
+      </md-toolbar>
+      <md-content layout-padding>
+      </md-content>
+    </md-sidenav>
+  </section>
+</div>
+</body>
+

@@ -1,0 +1,40 @@
+<html lang="en" ng-app="Renalds">
+  <head>
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/renalds-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <meta name="viewport" content="initial-scale=1" />
+  </head>
+  <body layout="column" ng-controller="RenaldsController">
+    <md-content id="topPageContent" class="md-whiteframe-z5" layout="row" layout-align="space-between start">
+      <div id="leftTop" layout="column" class="md-padding">
+<b>Steven P. Renalds</b>
+5872 Tulloch Spring Court<br>
+Haymarket, VA 20169<br>
+(703) 753-6363<br>
+<script src="js/email.js"></script>
+      </div>
+      <div class="md-padding" hide show-gt-md>
+        <img src="img/DataLogicitLogo.png" alt="DataLogicIT" title="DataLogic Information Technologies"/>
+      </div>
+      <div id="rightTop" class="md-padding" layout="column">
+<b>DataLogic IT, LLC</b>
+Sr. Oracle Database Consultant<br>
+<span ng-click="showClearance($event)"><u>Clearance Information</u></span>
+US Citizen
+      </div>
+    </md-content>
+    <div layout="row" flex>
+      <md-content layout="column" flex class="md-padding md-primary">
+        <div ng-view></div>
+      </md-content>
+    </div>
+    <!-- Angular Material Dependencies -->
+    <script src="js/angular/angular.min.js"></script>
+    <script src="js/angular/angular-animate.min.js"></script>
+    <script src="js/angular/angular-aria.min.js"></script>
+    <script src="js/angular/angular-material.min.js"></script>
+    <script src="js/angular/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
