@@ -1,16 +1,16 @@
 #topPagecontent {
-    background: #F1F1D4;
-    min-height: 150px;
-    max-height: 350px;
-    padding: 5px;
-    height: auto;
+  background: #F1F1D4;
+  min-height: 130px;
+  max-height: 350px;
+  padding: 5px;
 }
-#topPageContent img {
-    max-width: 98%;
-    max-height: 130px;
-    min-height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: auto;
-}
+#topPageContent img { 
+  max-width: 98%; 
+  max-height: 130px; 
+  min-height: 40px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  height: auto; 
+  width: auto; 
+} 
+
