@@ -1,8 +1,17 @@
 #topPagecontent {
-  background: #F1F1D4;
   min-height: 130px;
-  max-height: 350px;
+  max-height: 200px;
   padding: 5px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3d0bc+0,c9c190+40,b7ad70+100 */
+background: #d3d0bc; /* Old browsers */
+background: -moz-linear-gradient(top,  #d3d0bc 0%, #c9c190 40%, #b7ad70 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d0bc), color-stop(40%,#c9c190), color-stop(100%,#b7ad70)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d3d0bc 0%,#c9c190 40%,#b7ad70 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d3d0bc 0%,#c9c190 40%,#b7ad70 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d3d0bc 0%,#c9c190 40%,#b7ad70 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d3d0bc 0%,#c9c190 40%,#b7ad70 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d0bc', endColorstr='#b7ad70',GradientType=0 ); /* IE6-9 */
+
 }
 #topPageContent img { 
   max-width: 98%; 
@@ -13,4 +22,6 @@
   height: auto; 
   width: auto; 
 } 
-
+#background {
+  background: #F1F1D4;
+}
