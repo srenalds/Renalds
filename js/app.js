@@ -14,16 +14,33 @@ app.config(['$routeProvider','$locationProvider',
         templateUrl: 'partials/WorkHistory.html',
         controller: 'DataController'
     }).
+      when('/Interests', {
+        templateUrl: 'partials/Interests.html',
+        controller: 'RenaldsController'
+    }).
+      when('/About', {
+        templateUrl: 'partials/About.html',
+        controller: 'RenaldsController'
+    }).
+      when('/Links', {
+        templateUrl: 'partials/Links.html',
+        controller: 'RenaldsController'
+    }).
       otherwise({
         redirectTo: '/'
     });
   }
 ]);
 
+app.config(['$locationProvider', function($location) {
+  $location.hashPrefix('!');
+}]);
+
 app.config(function($mdThemingProvider) {
     $mdThemingProvider.theme('default')
       .primaryPalette('grey')
-      .accentPalette('blue-grey');
+      .accentPalette('blue-grey')
+      ;
 });
 
 app.config(['$compileProvider',
